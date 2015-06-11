@@ -28,8 +28,8 @@
 		<h2>
 			${message} <% out.print(submit); %> ${name}
 		</h2>
-		<h1><% out.println(res); %></h1>
-		<h4><a href="../HelloWorld">BACK</a></h4>
+		<h1 name="result"><% out.println(res); %></h1>
+		<h4><a href="../HelloWorld" name="back_link">BACK</a></h4>
 	</center>
 </body>
 </html>
